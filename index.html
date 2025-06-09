@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="body">
+
+            <div class="mx-auto p-2" style="width: 300px;"></div>
+
+
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand"><i class="fa-brands fa-instagram"></i>
+                        <h3>Instagram</h3>
+                    </a>
+
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a new post
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+            <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+
+            </ul>
+            <div class="tab-content d-flex justify-content-center" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <div class="card mb-3">
+                        <div class="titulo">
+                            <h4>titulo</h4>
+                            <span>hora</span>
+                        </div>
+                        <img src="https://media.istockphoto.com/id/157980726/es/foto/marr%C3%B3n-cachorro-en-verde-hierba.jpg?s=612x612&w=0&k=20&c=2lH-iHY1ie6_FpQKw5elY561KV8_iI4cw-eu0f-YyjM="
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="titulo">
+                            <h4>titulo</h4>
+                            <span>hora</span>
+                        </div>
+                        <img src="https://media.istockphoto.com/id/1170548929/es/foto/cachorro-springer-spaniel.jpg?s=612x612&w=0&k=20&c=ml1wTeIRsp0DGwPhwE4WrskhxiVfQCTFhLwvJtjA8_k="
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="titulo">
+                            <h4>titulo</h4>
+                            <span>hora</span>
+                        </div>
+                        <img src="https://media.istockphoto.com/id/1179625742/es/foto/pastor-australiano.jpg?s=612x612&w=0&k=20&c=jWBUD28ZNZ6W38TfYj4SIDPBrEVTYZw4kvIoe6MSJQo="
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="titulo">
+                            <h4>titulo</h4>
+                            <span>hora</span>
+                        </div>
+                        <img src="https://media.istockphoto.com/id/182857035/es/foto/daschund-puppie-en-hierba.jpg?s=612x612&w=0&k=20&c=zuPRR2NvGI6ae1ouyh8WXTu8fLbE1-RVL2UvNKM3Mq4="
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                    </a>
+                    </li>
+
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="ratio ratio-1x1">
+                                <img src="https://www.istockphoto.com/photo/cruising-cat-gm685958232-125993501?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbannerNone_media&utm_term=animales+graciosos"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="ratio ratio-1x1">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="ratio ratio-1x1">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>    
+
+        </div>
+    </div>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+                    crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

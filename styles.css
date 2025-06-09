@@ -1,0 +1,15 @@
+#body{
+    padding: auto;
+    
+}
+.card{
+    width: 300px;
+    height: 150px;
+}
+.pestañas{
+    justify-content: center;
+}
+.titulo{
+    justify-content: space-between;
+    display: flex;
+}
