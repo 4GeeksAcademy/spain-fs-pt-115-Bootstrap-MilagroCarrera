@@ -4,11 +4,9 @@
 }
 .card{
     width: 300px;
-    height: 150px;
+    height: 300px;
 }
-.pestañas{
-    justify-content: center;
-}
+
 .titulo{
     justify-content: space-between;
     display: flex;
